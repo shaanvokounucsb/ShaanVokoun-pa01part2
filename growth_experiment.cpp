@@ -19,7 +19,7 @@
 // alone.
 #include <cstddef>
 
-GrowthData measure_growth(double factor, std::size_t n) {
+GrowthStats measure_growth(double factor, std::size_t n) {
     double original_factor = Vector<int>::growth_factor;
     
     Vector<int>::growth_factor = factor;
