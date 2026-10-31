@@ -25,7 +25,7 @@ GrowthStats measure_growth(double factor, std::size_t n) {
     Vector<int>::growth_factor = factor;
     
     Vector<int> v;
-    GrowthData data;
+    GrowthStats data;
     data.reallocations = 0;
     data.elements_copied = 0;
     data.final_capacity = 0;
